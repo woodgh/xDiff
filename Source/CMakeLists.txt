@@ -1,0 +1,9 @@
+FILE(GLOB SOURCE_FILES 
+    Source/*.h
+    Source/*.cpp
+)
+
+FOREACH(FILE ${SOURCE_FILES})
+	SOURCE_GROUP("Source Files" FILES "${FILE}")
+
+ENDFOREACH()
