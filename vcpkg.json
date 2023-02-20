@@ -3,6 +3,7 @@
     "name": "xdiff",
     "version": "0.0.1",
     "dependencies": [
-      "crashpad"
+        "crashpad",
+        "xlnt"
     ]
   }
